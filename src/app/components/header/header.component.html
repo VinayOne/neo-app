@@ -1,0 +1,15 @@
+<mat-toolbar>
+<mat-toolbar-row>
+    <button mat-raised-button class="logo">Logo</button>
+    <div class="nav-menu">
+        <span [routerLink]="['/home']" routerLinkActive="active">Dashboard</span>
+        <span [routerLink]="['/alerts']" routerLinkActive="active">Alerts</span>
+        <span [routerLink]="['/resources']" routerLinkActive="active">Resources</span>
+        <span [routerLink]="['/reports']" routerLinkActive="active">Reports</span>
+    </div>
+    <div fxFlex fxLayoutAlign="flex-end">
+    <button mat-raised-button class="contact">Contact Us</button>
+</div>
+</mat-toolbar-row>
+</mat-toolbar>
+<mat-divider></mat-divider>

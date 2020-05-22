@@ -1,0 +1,14 @@
+.container{
+    display:flex;
+    justify-content: center;
+    
+}
+.container > div{
+    margin-top:100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../assets/images/error-404-page-found.jpg");
+    width: 626px;
+    height: 391px;
+}

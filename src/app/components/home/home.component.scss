@@ -1,0 +1,51 @@
+.container{
+    display:flex;
+}
+.container >.col{
+    border:0px dashed #767676;
+    padding:0 7px;
+    
+    
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.right > div {
+    width:600px;
+    align-items: center;
+    margin-top: 3rem;
+}
+.right > div >.mat-title{
+    margin-left: -40px;
+}
+.right2{
+    flex-grow:1;
+}
+ul > li{
+    margin-left: -13px;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+ul > li:hover{
+    font-weight: 600;
+}
+.container >.down{
+    margin-top: 6rem;
+    justify-content: center;
+    align-content: center;
+    margin-left: 6rem;
+}
+.container >.down > div{
+    margin: 7rem auto auto 20rem;
+}
+.chart{
+    display:block;
+    width: 600px;
+    height:auto;
+}
+

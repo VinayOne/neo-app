@@ -1,0 +1,35 @@
+.nav-menu{
+    display:flex;
+}
+.nav-menu > span{
+    justify-content: space-between;
+    text-align: center;
+    font: normal 16px/58px Roboto;
+    color: #47525e;
+    cursor: pointer;
+    padding: 3px 26px;
+}
+
+.nav-menu > span:hover{
+    background-color: #e5e9f2;
+}
+
+.nav-menu > span.active{
+    background-color: #e5e9f2;
+}
+
+.nav-menu > span:first-child{
+    margin-left: 1rem;
+}
+mat-toolbar{
+    background-color: #ffffff;
+}
+.logo{
+    background-color: #8190A5;
+    color: #ffffff;
+    padding: 0 45px;
+}
+.contact{
+    background-color: #47525E;
+    color: #ffffff;
+}
